@@ -1,0 +1,181 @@
+html, body {
+    width: 90%; /* Asegúrate de que ocupen todo el ancho */
+    height: 90%; /* Asegura que ocupen todo el alto */
+    margin: 0 auto; /* Elimina cualquier margen por defecto */
+    padding: 0; /* Elimina cualquier padding por defecto */
+
+   }
+body {
+    background: rgba(173,160,0,0.5);
+    color: #ffffff;	
+    width: 90%;
+    height: 90%
+    margin:0 auto;
+    padding: 0;
+}
+
+footer {
+	width: 90%;
+	margin: auto;
+
+}
+div {background: rgb(252,30,245,.5);
+}
+
+div:hover{background: rgba(220,2212,27);
+}
+body{ 
+	margin: 0;
+}
+div table {background: rgb(118,245,0);
+	width: 100%;
+}
+
+
+		
+table tr td a{color: rgb(255,255,255);
+	font-size: 20px;
+text-decoration: none;
+height: 20px;
+font-weight: bold;
+margin: 10px 10px 10px 10px;
+background: rgb(23,41,178);
+padding:9px 20px;
+box-shadow: 0px 5px 0px #F00074;
+}
+a {text-decoration: none;}
+
+a:hover{
+	text-decoration: underline;
+	box-shadow: 0px 2px 0px #F00074;
+}
+a:active {background: rgb(8,240,138)}
+
+
+ div h2{background:rgb(131,42,235);
+	height: 60px;
+	color: rgb(0,0,0);
+}
+
+.segundo{background: rgb(131,42,235);
+	color:rgb(0,0,0);
+font-size: 24px;
+line-height: 59px;
+font-style: oblique;
+text-align: center;
+}
+	
+
+h1{color: rgb(0,0,0);
+	text-align: left;
+	position: relative;top: -40px;
+	font-weight: bold;
+	font-family: "Verdana";
+	text-shadow:4px 4px 4px #000;
+
+
+}
+tr:hover{background: rgb(220,2212,27);
+}
+
+}
+h4{color: rgb(0,0,0);
+font-size: 25px;
+font-style: oblique;
+font-weight: bold;
+}
+
+p{color: rgb(0,0,0);
+font-size: 17px;
+font-style: italic;
+font-family: "verdana";
+font-weight: normal;}
+
+h5{color: rgb(0,0,0);
+font-size: 25px;
+font-style: oblique;
+font-weight: bold;
+text-align: right;}
+
+h3{color: rgb(0,0,0);
+font-size: 20px;
+}
+
+img{width: 100%;
+
+background-size: cover;
+border-radius: 5px;
+}
+h2{color: rgb(0,0,0);}
+
+h6{color: rgb(0,0,0);
+font-size: 25px;}
+
+
+
+.bars__menu{
+width: 30px;
+height: 30px;
+position: absolute;
+top: 10%;
+left: 90%;
+transform: scale(2);
+cursor: pointer;
+}
+
+.bars__menu span {
+	display: block;
+width: 70%;
+height: 2px;
+background: #000000;
+margin-top: 6px;
+}
+.imagen-menu{
+	display: none;
+	background:rgba(173,160,0,.0);
+	border:none;
+	 position: absolute; /* Posicionar de forma absoluta para colocarlo bajo el botón */
+    top: 90px; /* Ajusta este valor para colocarlo justo debajo del botón */
+    left: 76%; /* Mantener alineado con el botón */
+    background:rgba(173,160,0,.0); /* Agregar un fondo si es necesario */
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcional: sombra para un mejor diseño */
+    z-index: 1000; /* Asegurarse de que esté sobre otros elementos */
+    width: 200px;
+}
+.imagen-menu img {
+	width: 100%;
+	height: 150px;
+	margin-bottom: 10px;
+}
+.imagen-menu.visibility{display: block;}
+
+.bars__menu {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    transform: scale(2);
+    cursor: pointer;
+    background:rgba(173,160,0,.0); /* Si quieres que tenga color de fondo */
+    margin: 0; /* Eliminar cualquier margen */
+    padding: 0; /* Asegurar que no haya espacio extra */
+    border: none; /* Quitar el borde si existe */
+}
+.contacto-link {
+    font-size: 24px; /* Aumenta el tamaño del texto */
+    font-weight: bold; /* Hace el texto más grueso */
+    color: #ffffff; /* Color del texto */
+    background-color: #007bff; /* Color de fondo */
+    padding: 10px 10px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Quita el subrayado */
+    display: inline-block; /* Para aplicar padding y background correctamente */
+    transition: background-color 0.3s ease; /* Transición suave para el efecto hover */
+}
+
+.contacto-link:hover {
+    background-color: #0056b3; /* Cambia el color de fondo cuando el cursor pasa por encima */
+    text-decoration: underline; /* Opcional: subraya el texto en hover */
+}
