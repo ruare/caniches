@@ -14,10 +14,14 @@ body {
     padding: 0;
 }
 
-footer {
-	width: 90%;
-	margin: auto;
+ooter {
+    width: 90%;        /* Ancho del footer */
+    margin: auto;     /* Centra el footer en la página */
+    padding: 20px;    /* Espaciado interno */
 
+    text-align: center; /* Alinear el texto al centro */
+    font-size: 16px;  /* Tamaño de la fuente */
+    color: #333;      /* Color del texto */
 }
 div {background: rgb(252,30,245,.5);
 }
