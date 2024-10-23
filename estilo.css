@@ -66,15 +66,15 @@ text-align: center;
 }
 	
 
-h1{color: rgb(0,0,0);
-	text-align: left;
-	position: relative;top: -40px;
-	font-weight: bold;
-	font-family: "Verdana";
-	text-shadow:4px 4px 4px #000;
-
-
+h1{ 
+color: #FFFFFF;
+text-align: left;
+position: relative;top: -40px;
+font-weight: bold;
+font-family: "Verdana";
+text-shadow:4px 4px 4px #000;
 }
+
 tr:hover{background: rgb(220,2212,27);
 }
 
