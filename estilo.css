@@ -179,3 +179,25 @@ margin-top: 6px;
     background-color: #0056b3; /* Cambia el color de fondo cuando el cursor pasa por encima */
     text-decoration: underline; /* Opcional: subraya el texto en hover */
 }
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em; /* Ajusta según sea necesario */
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    p {
+        font-size: 1em;
+    }
+    table {
+        width: 100%; /* Asegúrate de que la tabla use todo el ancho */
+    }
+    td {
+        display: block; /* Cambiar a bloque para evitar superposición */
+    }
+    a {
+        display: block; /* Enlaces en línea vertical */
+        margin: 5px 0; /* Espaciado entre enlaces */
+    }
+}
