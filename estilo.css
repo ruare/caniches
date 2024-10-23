@@ -78,7 +78,8 @@ h1 {
     font-family: "Verdana";
     text-shadow: 4px 4px 4px #000;
     white-space: nowrap; /* Evita que el texto se divida en múltiples líneas */
-	margin-left: 20px;
+    width: 100%;
+    margin: 0; /* Elimina márgenes para mantenerlo alineado */
 }
 
 tr:hover{ background: rgb(220,2212,27);
