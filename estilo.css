@@ -33,6 +33,7 @@ body{
 }
 div table {background: rgb(118,245,0);
 	width: 100%;
+    min-height: 100px;
 }
 
 
